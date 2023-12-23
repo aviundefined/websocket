@@ -3,6 +3,7 @@ package com.rachvik.websocket.controller;
 import com.rachvik.websocket.model.User;
 import com.rachvik.websocket.service.UserService;
 import java.util.List;
+import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.messaging.handler.annotation.MessageMapping;
